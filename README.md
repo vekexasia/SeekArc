@@ -6,7 +6,7 @@ I might accept pull requests and push them to central.
 
 To include it use 
 ```
-  compile 'com.andreabaccega:com.triggertrap.seekarc:1.0.0'
+  compile 'com.andreabaccega:com.triggertrap.seekarc:1.0.1'
 ```
 
 ### What is a SeekArc?
