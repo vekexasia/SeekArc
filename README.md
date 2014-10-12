@@ -1,5 +1,13 @@
 SeekArc
 =======
+# ATTENTION
+**This is a fork** of the original TriggerTrap library. I created it mainly cause there were no Maven Support.
+I might accept pull requests and push them to central.
+
+To include it use 
+```
+  compile 'com.andreabaccega:com.triggertrap.seekarc:1.0.0'
+```
 
 ### What is a SeekArc?
 
