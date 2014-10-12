@@ -23,147 +23,147 @@
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginTop="8dp"
-    android:layout_weight="1"
-    android:orientation="vertical" >
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="8dp"
+              android:layout_weight="1"
+              android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Rotation:" />
+            android:text="Rotation:"/>
 
         <SeekBar
             android:id="@+id/rotation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:max="360" />
+            android:max="360"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Start Angle:" />
+            android:text="Start Angle:"/>
 
         <SeekBar
             android:id="@+id/startAngle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:max="90" />
+            android:max="90"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Sweep Angle:" />
+            android:text="Sweep Angle:"/>
 
         <SeekBar
             android:id="@+id/sweepAngle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:max="360" />
+            android:max="360"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Arc width:" />
+            android:text="Arc width:"/>
 
         <SeekBar
             android:id="@+id/arcWidth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:max="10" />
+            android:max="10"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Progress width:" />
+            android:text="Progress width:"/>
 
         <SeekBar
             android:id="@+id/progressWidth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:max="10" />
+            android:max="10"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Rounded:" />
+            android:text="Rounded:"/>
 
         <CheckBox
             android:id="@+id/roundedEdges"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Clockwise:" />
+            android:text="Clockwise:"/>
 
         <CheckBox
             android:id="@+id/clockwise"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:checked="true" />
+            android:checked="true"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Touch Inside:" />
+            android:text="Touch Inside:"/>
 
         <CheckBox
             android:id="@+id/touchInside"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:checked="true" />
+            android:checked="true"/>
     </LinearLayout>
 
 </LinearLayout>

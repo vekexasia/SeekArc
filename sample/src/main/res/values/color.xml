@@ -23,6 +23,6 @@
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 -->
 <resources>
-     <color name="red">#ffe2231a</color>
-     <color name="dark_red">#ff510209</color>
+    <color name="red">#ffe2231a</color>
+    <color name="dark_red">#ff510209</color>
 </resources>
